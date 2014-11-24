@@ -10,42 +10,73 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="First_Swift_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="6Wc-PH-4AU"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Fm-Sv-zGt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSd-Tr-nck">
-                                <rect key="frame" x="95" y="413" width="130" height="48"/>
-                                <color key="backgroundColor" red="0.043137256056070328" green="0.015686275437474251" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
+                            <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You are born with 300 bones, when you turn 20 you have 200" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEK-Xb-GbI">
+                                <rect key="frame" x="33" y="149" width="224" height="160"/>
+                                <rect key="contentStretch" x="0.050000000000000003" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Did you know that?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExA-1s-tib">
+                                <rect key="frame" x="48" y="49" width="224" height="92"/>
+                                <rect key="contentStretch" x="0.050000000000000003" y="0.0" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aTa-Ll-iIA">
+                                <rect key="frame" x="126" y="317" width="51" height="31"/>
+                            </switch>
+                            <tableViewCell contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="XXN-i6-WsP">
+                                <rect key="frame" x="-16" y="276" width="320" height="44"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XXN-i6-WsP" id="uKe-6V-wCw">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <button alpha="0.39999999999999963" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSd-Tr-nck">
+                                <rect key="frame" x="67" y="447" width="190" height="71"/>
+                                <color key="backgroundColor" red="0.031372550874948502" green="0.0039215688593685627" blue="0.0039215688593685627" alpha="1" colorSpace="deviceRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
-                                <size key="titleShadowOffset" width="2" height="0.0"/>
-                                <state key="normal" title="New Facts">
-                                    <color key="titleColor" red="0.9701551233720962" green="1" blue="0.95111042937014234" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.46190291160000002" green="0.95541199720000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="hVv-63-KfW"/>
+                                    <constraint firstAttribute="width" constant="190" id="us7-GH-6g0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="21"/>
+                                <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <state key="normal" title="See Facts">
+                                    <color key="titleColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" red="0.023529414087533951" green="0.96078437566757202" blue="0.85490202903747559" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.46190291160000002" green="0.95541199720000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.031372550874948502" green="0.015686275437474251" blue="0.0039215688593685627" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="qwS-tO-SPN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know that?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEK-Xb-GbI">
-                                <rect key="frame" x="16" y="144" width="88" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="xFB-cC-nIg"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.48027380600676706" blue="0.87586489057974015" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.78431379800000001" green="0.86666673419999996" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="eEK-Xb-GbI" secondAttribute="trailing" constant="200" id="BQj-bu-Mzz"/>
-                            <constraint firstItem="eEK-Xb-GbI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ETw-gT-lAs"/>
-                            <constraint firstItem="eEK-Xb-GbI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="124" id="ggR-3I-iL4"/>
-                            <constraint firstAttribute="centerY" secondItem="eEK-Xb-GbI" secondAttribute="centerY" constant="119.5" id="oEX-OO-POy"/>
+                            <constraint firstItem="eEK-Xb-GbI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="6Br-k9-eOK"/>
+                            <constraint firstItem="ExA-1s-tib" firstAttribute="top" secondItem="6Wc-PH-4AU" secondAttribute="bottom" constant="29" id="9XA-Fs-3hI"/>
+                            <constraint firstItem="aTa-Ll-iIA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="110" id="VE5-Yy-8Yt"/>
+                            <constraint firstItem="eEK-Xb-GbI" firstAttribute="top" secondItem="6Wc-PH-4AU" secondAttribute="bottom" constant="129" id="Ygj-XP-6wO"/>
+                            <constraint firstItem="SSd-Tr-nck" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="jxF-nQ-ExP"/>
+                            <constraint firstItem="ExA-1s-tib" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="sJe-BX-tcP"/>
+                            <constraint firstItem="2Fm-Sv-zGt" firstAttribute="top" secondItem="aTa-Ll-iIA" secondAttribute="bottom" constant="220" id="vs5-9l-nko"/>
+                            <constraint firstItem="2Fm-Sv-zGt" firstAttribute="top" secondItem="SSd-Tr-nck" secondAttribute="bottom" constant="49" id="xTr-17-vLf"/>
                         </constraints>
                     </view>
                     <connections>
