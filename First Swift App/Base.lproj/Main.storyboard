@@ -19,6 +19,7 @@
                         <subviews>
                             <label opaque="NO" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You are born with 300 bones, when you turn 20 you have 200" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEK-Xb-GbI">
                                 <rect key="frame" x="33" y="149" width="224" height="160"/>
+                                <color key="tintColor" red="0.46190291160000002" green="0.95541199720000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <rect key="contentStretch" x="0.050000000000000003" y="0.0" width="1" height="1"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
@@ -35,9 +36,6 @@
                                 <color key="shadowColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aTa-Ll-iIA">
-                                <rect key="frame" x="126" y="317" width="51" height="31"/>
-                            </switch>
                             <tableViewCell contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="XXN-i6-WsP">
                                 <rect key="frame" x="-16" y="276" width="320" height="44"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XXN-i6-WsP" id="uKe-6V-wCw">
@@ -71,11 +69,9 @@
                         <constraints>
                             <constraint firstItem="eEK-Xb-GbI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="6Br-k9-eOK"/>
                             <constraint firstItem="ExA-1s-tib" firstAttribute="top" secondItem="6Wc-PH-4AU" secondAttribute="bottom" constant="29" id="9XA-Fs-3hI"/>
-                            <constraint firstItem="aTa-Ll-iIA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="110" id="VE5-Yy-8Yt"/>
                             <constraint firstItem="eEK-Xb-GbI" firstAttribute="top" secondItem="6Wc-PH-4AU" secondAttribute="bottom" constant="129" id="Ygj-XP-6wO"/>
                             <constraint firstItem="SSd-Tr-nck" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="jxF-nQ-ExP"/>
                             <constraint firstItem="ExA-1s-tib" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="sJe-BX-tcP"/>
-                            <constraint firstItem="2Fm-Sv-zGt" firstAttribute="top" secondItem="aTa-Ll-iIA" secondAttribute="bottom" constant="220" id="vs5-9l-nko"/>
                             <constraint firstItem="2Fm-Sv-zGt" firstAttribute="top" secondItem="SSd-Tr-nck" secondAttribute="bottom" constant="49" id="xTr-17-vLf"/>
                         </constraints>
                     </view>
